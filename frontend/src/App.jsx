@@ -14,7 +14,8 @@ function App() {
       {users.map((u) => (
         <p key={u.id}>{u.name}</p>
       ))}
-      <button>Login
+      {/* Hotfix fixed */}
+      <button>Login</button>
     </div>
   );
 }
